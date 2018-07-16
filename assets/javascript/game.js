@@ -1,24 +1,13 @@
-// Creating vaules for the wins, loses and guesses left
-var wins = 0;
-var loses = 0;
-var userGuesses = 9;
+// Make variables for wins losses and guesses left
 
-// make the it so the computer  knows to guess a letter guess 
+//Make it so that the comeputer guesses a letter
 
-var pcGuess = ['a','b','c','d','e','f','g','h','i','j','k','l',
-'m','n','o','p','q','r','s','t','u','v','w','x','y','z']; 
+// make so that the computer does accept anything besides letters
 
-var pcGuess = pcGuess[Math.floor(Math.random() * pcGuess.length)];
+// make it so that if the users guess does equal the computer guess the number you win
 
-// make it so that the computer keeps track of only letter being 
+// loop so that it continues until reaching 0 and restarting the game if wins
 
-// starting the loop for the game 
+// make it so that if the users guess does not equal the computer guess the number of guess goes down and type the text of letter type
 
-for (userGuesses > 0; userGuesses - 1) {
-    if (userGuess === pcGuess) {
-        wins++;
-
-    else {
-        userGuesses--;
-    }
-}
+// make it reset once the game is over 
